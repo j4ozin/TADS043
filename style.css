@@ -1,0 +1,108 @@
+/* Estilo geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
+    color: #444;
+}
+
+/* Cabeçalhos */
+h2 {
+    color: #4a90e2;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Listas ordenadas */
+ol {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style-type: decimal;
+}
+
+ol li {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+dd {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #666;
+}
+
+/* Links */
+a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff3b2f;
+}
+
+/* Parágrafos */
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    color: #555;
+}
+
+/* Tabelas */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th {
+    background: #4a90e2;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+}
+
+table tr:hover {
+    background: #f9f9f9;
+}
+
+/* Adicionando um rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #4a90e2;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
